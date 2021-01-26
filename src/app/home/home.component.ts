@@ -34,6 +34,6 @@ export class HomeComponent implements OnInit {
   }
 
   exibirTabela(){
-    this.exibeTabela = true;
+    this.exibeTabela = !this.exibeTabela;
   }
 }
